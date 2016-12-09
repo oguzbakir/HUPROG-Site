@@ -9,3 +9,21 @@ body {
 	background-color:#FF0000;
 	height:500px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	position:fixed;
+	
+}
+li {
+    display: block;
+	float:left;
+	padding: 20px 18px;
+}
+lis {
+	display:block;
+	float:right;
+	padding: 20px 18px;
+	}
