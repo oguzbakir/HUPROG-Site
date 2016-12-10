@@ -27,7 +27,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    
     text-decoration: none;
 }
 li a:hover {
@@ -38,9 +38,22 @@ lis {
 	float: right;
 	padding: 20px 18px;
 	}
+lis a {
+    display: block;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+}
+lis a:hover {
+    background-color: #111;
+}
 .m0 {
 	margin: 0;
 	}
 .p0 {
 	padding: 0;
+	}
+.htopbar {
+	height: 64px;
 	}
