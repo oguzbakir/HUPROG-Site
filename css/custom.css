@@ -13,7 +13,8 @@ p a {
 h1{
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 800;
-	font-size: 12px;
+	font-size: 42px;
+	margin-top:30%;
 	}
 h2,
 h3,
@@ -26,7 +27,9 @@ h6 {
 a {
   color: #333333;
 }
-a:hover,
+a:hover{
+	background-color: #111
+	}
 a:focus {
   color: #0085A1;
 }
@@ -82,7 +85,7 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #111;
   }
   .navbar-custom .nav li a {
     color: grey;
@@ -90,7 +93,7 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #111;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -143,17 +146,24 @@ hr.small {
   background-color: #777777;
   background: no-repeat center center;
   background-attachment: scroll;
-  -webkit-background-size: cover;
+  -webkit-background-size: contain;
   -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background-repeat:no-repeat;
   margin-bottom: 0px;
 }
+.intro-header-post {
+  background-color: #777777;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-repeat:no-repeat;
+  margin-bottom: 0px;
+	}
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: black;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -406,5 +416,9 @@ Sayilar {
 	
 	}
 Aciklamalar {
+	
+	}
+.row{
+	height:500px;
 	
 	}

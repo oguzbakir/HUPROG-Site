@@ -11,27 +11,23 @@
 
     <title>HUPROG'17</title>
 
-    
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    
     <link href="css/custom.css" rel="stylesheet">
-
-    
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     
+   
 
 </head>
 
 <body>
 
-    
+
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
-            
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -40,21 +36,13 @@
                 <a class="navbar-brand" href="sponsor.html">Sponsor Ol</a>
             </div>
 
-            
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="index.html">Ana Sayfa</a>
                     </li>
                     <li>
-                        <div class="dropdown">
-    <button class="btn" type="button" data-toggle="dropdown" style="background-color:#FFFFFF; font-size: 12px; margin-top:5px; color:grey;">Dropdown
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu">
-      <li><a href="index.html">HUPROG'17</a></li>
-      <li><a href="#">HUPROG'16</a></li>
-    </ul>
-  </div>
+                        <a>Buna Dropdown Ekle</a>
                     </li>
                     <li>
                         <a href="post.html">Deneme</a>
@@ -64,112 +52,46 @@
                     </li>
                 </ul>
             </div>
-            
         </div>
-        
     </nav>
-
-    <!-- Header -->
-    <header class="intro-header" style="background-image: url(logo.jpg); ">
+    <header class="intro-header-post" style="background-image: url('d0g.jpg')">
         <div class="container">
             <div class="row">
-                <div class="col-lg-offset-2 col-md-10 col-md-offset-1 col-lg-9">
-                    <div class="site-heading">
-                    	<div class="sayac">
-                            <h1></h1>
-                            <hr class="small">
-                            	<table class="table">
-									<tr class="Sayilar">
-                                    <div class="Sayilar">
-                                    	<td id="days">1</td>
-                                        <td id="hours">1</td>
-                                        <td id="minutes">1</td>
-                                        <td id="seconds">1</td>
-                                        </div>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <div class="Aciklamalar">
-                                    	<td>Gün</td>
-                                        <td>Saat</td>
-                                        <td>Dakika</td>
-                                        <td>Saniye</td>
-                                        </div>
-                                    </tr>
-								</table>
-                            </div>
-						<br><br><br><br><br><br><br><br><br>
+                <div class="col-lg-8">
+                    <div class="post-heading">
+                        <h1 class="site-heading">Head1</h1>
+                        <h2 class="subheading">Head2</h2>
+                        <span class="meta">Posted by Admin on December 24, 2016</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    
-<script type="text/javascript">
 
-			function countdown(){
-				var now = new Date();
-				var eventDate = new Date(2017, 4, 7);
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p>P1.</p>
 
-				var currentTime = now.getTime();
-				var eventTime = eventDate.getTime();
+                    <h2 class="section-heading">H3</h2>
 
-				var remTime = eventTime - currentTime;
+                    <p>P2</p>
 
-				var s = Math.floor(remTime / 1000);
-				var m = Math.floor(s / 60);
-				var h = Math.floor(m / 60);
-				var d = Math.floor(h / 24);
+                    <h2 class="section-heading">H4</h2>
 
-				h %= 24;
-				m %= 60;
-				s %= 60;
+                    <p>P3</p>
 
-				h = (h < 10) ? "0" + h : h;
-				m = (m < 10) ? "0" + m : m;
-				s = (s < 10) ? "0" + s : s;
-
-				document.getElementById("days").textContent = d;
-				document.getElementById("days").innerText = d;
-
-				document.getElementById("hours").textContent = h;
-				document.getElementById("minutes").textContent = m;
-				document.getElementById("seconds").textContent = s;
-
-				setTimeout(countdown, 1000);
-			}
-
-			countdown();
-		</script>
-        
-    <!-- Icerik -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Deneme
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Deneme
-                        </h3>
+                    <a href="#">
+                        <!-- <img class="img-responsive" src="img/post-sample-image.jpg" alt=""> -->
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Admin</a> on December 10, 2016</p>
+                    <!--<span class="caption text-muted">Resim altı</span>-->
+
+                    <p>P4</p>
                 </div>
-                
-                
-                
-               
-                <!-- Page Select -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Daha Eski Gönderiler &rarr;</a>
-                    </li>
-                </ul>
             </div>
         </div>
-    </div>
+    </article>
 
     <hr>
 
@@ -212,17 +134,17 @@
         </div>
     </footer>
 
-    
+
     <script src="vendor/jquery/jquery.min.js"></script>
 
-    
+
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    
+
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
-    
+
     <script src="js/huprog.js"></script>
 
 </body>
