@@ -27,9 +27,7 @@ h6 {
 a {
   color: #333333;
 }
-a:hover{
-	background-color: #111
-	}
+
 a:focus {
   color: #0085A1;
 }
